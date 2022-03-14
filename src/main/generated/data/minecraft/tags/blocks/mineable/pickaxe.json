@@ -1,0 +1,32 @@
+{
+  "replace": false,
+  "values": [
+    "globlocks:limestone",
+    "globlocks:polished_limestone",
+    "globlocks:limestone_bricks",
+    "globlocks:schist",
+    "globlocks:polished_schist",
+    "globlocks:schist_bricks",
+    "globlocks:dried_loam",
+    "globlocks:loam_bricks",
+    "globlocks:marble",
+    "globlocks:polished_marble",
+    "globlocks:marble_bricks",
+    "globlocks:black_bricks",
+    "globlocks:blue_bricks",
+    "globlocks:brown_bricks",
+    "globlocks:cyan_bricks",
+    "globlocks:gray_bricks",
+    "globlocks:green_bricks",
+    "globlocks:light_blue_bricks",
+    "globlocks:light_gray_bricks",
+    "globlocks:lime_bricks",
+    "globlocks:magenta_bricks",
+    "globlocks:orange_bricks",
+    "globlocks:pink_bricks",
+    "globlocks:purple_bricks",
+    "globlocks:red_bricks",
+    "globlocks:white_bricks",
+    "globlocks:yellow_bricks"
+  ]
+}

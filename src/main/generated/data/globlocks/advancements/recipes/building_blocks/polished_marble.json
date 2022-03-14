@@ -1,0 +1,34 @@
+{
+  "parent": "minecraft:recipes/root",
+  "rewards": {
+    "recipes": [
+      "globlocks:polished_marble"
+    ]
+  },
+  "criteria": {
+    "has_marble": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "globlocks:marble"
+            ]
+          }
+        ]
+      }
+    },
+    "has_the_recipe": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "globlocks:polished_marble"
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_marble",
+      "has_the_recipe"
+    ]
+  ]
+}

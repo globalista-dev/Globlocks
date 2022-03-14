@@ -1,23 +1,19 @@
 package com.globalista.globlocks;
 
 import net.fabricmc.api.ModInitializer;
-import net.minecraft.util.Identifier;
-import org.slf4j.Logger;
-import org.slf4j.LoggerFactory;
 
-import static com.globalista.globlocks.block.ModBlocks.callBlocks;
+import static com.globalista.globlocks.block.GloblocksBlocks.callBlocks;
+import static com.globalista.globlocks.world.GloblocksWorldGen.callWorldGen;
 
 public class Globlocks implements ModInitializer {
 
 	public static final String MOD_ID = "globlocks";
 
-	public static Identifier id(String name) {
-		return new Identifier(MOD_ID, name);
-	}
-
 	@Override
 	public void onInitialize() {
 		callBlocks();
+		callWorldGen();
+
 
 	}
 }

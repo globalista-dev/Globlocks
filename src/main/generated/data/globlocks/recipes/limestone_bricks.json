@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "SS",
+    "SS"
+  ],
+  "key": {
+    "S": {
+      "item": "globlocks:polished_limestone"
+    }
+  },
+  "result": {
+    "item": "globlocks:limestone_bricks",
+    "count": 4
+  }
+}

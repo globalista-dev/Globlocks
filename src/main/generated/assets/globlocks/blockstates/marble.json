@@ -1,0 +1,20 @@
+{
+  "variants": {
+    "": [
+      {
+        "model": "globlocks:block/marble"
+      },
+      {
+        "model": "globlocks:block/marble_mirrored"
+      },
+      {
+        "model": "globlocks:block/marble",
+        "y": 180
+      },
+      {
+        "model": "globlocks:block/marble_mirrored",
+        "y": 180
+      }
+    ]
+  }
+}

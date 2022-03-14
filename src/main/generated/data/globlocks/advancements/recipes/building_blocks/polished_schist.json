@@ -1,0 +1,34 @@
+{
+  "parent": "minecraft:recipes/root",
+  "rewards": {
+    "recipes": [
+      "globlocks:polished_schist"
+    ]
+  },
+  "criteria": {
+    "has_schist": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "globlocks:schist"
+            ]
+          }
+        ]
+      }
+    },
+    "has_the_recipe": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "globlocks:polished_schist"
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_schist",
+      "has_the_recipe"
+    ]
+  ]
+}

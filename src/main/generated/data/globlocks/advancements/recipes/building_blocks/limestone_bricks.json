@@ -1,0 +1,34 @@
+{
+  "parent": "minecraft:recipes/root",
+  "rewards": {
+    "recipes": [
+      "globlocks:limestone_bricks"
+    ]
+  },
+  "criteria": {
+    "has_polished_limestone": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "globlocks:polished_limestone"
+            ]
+          }
+        ]
+      }
+    },
+    "has_the_recipe": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "globlocks:limestone_bricks"
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_polished_limestone",
+      "has_the_recipe"
+    ]
+  ]
+}

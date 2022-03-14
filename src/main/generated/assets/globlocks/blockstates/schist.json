@@ -1,0 +1,20 @@
+{
+  "variants": {
+    "": [
+      {
+        "model": "globlocks:block/schist"
+      },
+      {
+        "model": "globlocks:block/schist_mirrored"
+      },
+      {
+        "model": "globlocks:block/schist",
+        "y": 180
+      },
+      {
+        "model": "globlocks:block/schist_mirrored",
+        "y": 180
+      }
+    ]
+  }
+}

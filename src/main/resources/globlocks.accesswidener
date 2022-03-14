@@ -1,0 +1,12 @@
+accessWidener	v2	named
+
+accessible  field   net/minecraft/data/server/RecipeProvider   root    Lnet/minecraft/data/DataGenerator;
+
+accessible  field   net/minecraft/data/server/BlockLootTableGenerator   lootTables  Ljava/util/Map;
+
+transitive-accessible   field   net/minecraft/data/client/BlockStateModelGenerator    blockStateCollector Ljava/util/function/Consumer;
+transitive-accessible   field   net/minecraft/data/client/BlockStateModelGenerator    modelCollector  Ljava/util/function/BiConsumer;
+transitive-accessible	method	net/minecraft/data/client/BlockStateModelGenerator	registerSimpleCubeAll	(Lnet/minecraft/block/Block;)V
+
+transitive-accessible	method	net/minecraft/data/server/BlockLootTableGenerator	addDrop	(Lnet/minecraft/block/Block;Ljava/util/function/Function;)V
+transitive-accessible	method	net/minecraft/data/server/BlockLootTableGenerator	addDrop	(Lnet/minecraft/block/Block;Lnet/minecraft/loot/LootTable$Builder;)V
