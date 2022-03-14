@@ -11,8 +11,6 @@ public class Globlocks implements ModInitializer {
 
 	public static final String MOD_ID = "globlocks";
 
-	private static final Identifier GLOBLOCKS_ID = new Identifier(MOD_ID, "globlocks");
-
 	public static Identifier id(String name) {
 		return new Identifier(MOD_ID, name);
 	}
